@@ -1,0 +1,21 @@
+{
+    "name": "personal/sample-hello",
+    "description": "This is small hello wprld project",
+    "type": "library",
+    "require": {
+        "php": ">=5.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shahzaib Shahid",
+            "email": "shahzaib.shahid@attock.org"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
